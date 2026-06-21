@@ -27,8 +27,8 @@
 // | SHIFT |  Z  |  X  |   C   |  V  |  B  | PG_UP | PG_DOWN | --- | HOME | END   |  N    |  M    |  ,    |  .   | /  | SHFT(RET) |
 // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
             bindings = <
-   &kp ESC   &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                                 &kp N6      &kp N7         &kp N8    &kp N9   &kp N0   &kp RBRC
-   &kp GRAVE &kp Q    &kp W    &kp E  &kp R    &kp T  &kp DEL                               &kp EQUAL &kp Y       &kp U          &kp I     &kp O    &kp P    &kp LBRC
+   &kp ESC   &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                                 &kp N6      &kp N7         &kp N8    &kp N9   &kp N0   &kp RBKT
+   &kp GRAVE &kp Q    &kp W    &kp E  &kp R    &kp T  &kp DEL                               &kp EQUAL &kp Y       &kp U          &kp I     &kp O    &kp P    &kp LBKT
    &kp TAB   &kp A    &kp S    &kp D  &kp F    &kp G  &kp BSPC                              &kp RET   &kp H       &kp J          &kp K     &kp L    &kp SEMI &kp SQT
    &kp LSHFT &kp Z    &kp X    &kp C  &kp V    &kp B  &kp HOME  &kp END   &kp LC(LS(LA(I))) &sl MOUSE &kp N       &kp M          &kp COMMA &kp DOT  &kp FSLH &mt RSHFT BSLH
    &kp LCTRL &kp PGUP &kp PGDN &kp LGUI   &sl FNCT    &kp SPACE &kp LALT  &kp RALT          &kp SPACE       &mt RCTRL MINUS      &kp LEFT  &kp DOWN &kp UP   &kp RIGHT
@@ -48,7 +48,7 @@
    &kp C_EJECT    &kp C_PWR    &kp C_SLEEP  &trans        &kp SYSREQ     &kp F6           &kp C_VOL_UP                              &trans    &trans      &kp KP_N7 &kp KP_N8     &kp KP_N9       &kp KP_PLUS  &kp F10
    &studio_unlock &trans       &trans       &trans        &trans         &kp PAUSE_BREAK  &kp C_VOL_DN                              &trans    &kp KP_NLCK &kp KP_N4 &kp KP_N5     &kp KP_N6       &kp KP_PLUS  &kp F11
    &trans         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_CLR_ALL &kp INS          &trans        &trans              &trans  &trans    &trans      &kp KP_N1 &kp KP_N2     &kp KP_N3       &kp KP_ENTER &kp F12
-   &trans         &trans       &trans       &trans                    &trans              &kp C_MUTE    &trans              &trans  &trans        &kp KP_N0         &trans        &kp KP_DOT      &kp KP_ENTER &trans
+   &trans         &trans       &trans       &trans                    &trans              &kp C_MUTE    &trans              &trans  &trans        &kp KP_N0         &kp KP_N0     &kp KP_DOT      &kp KP_ENTER &trans
             >;
         };
 
