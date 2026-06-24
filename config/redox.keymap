@@ -15,6 +15,10 @@
 #define FNCT    1
 #define MOUSE   2
 
+&mt {
+    tapping-term-ms = <140>;
+};
+
 / {
     keymap {
         compatible =  "zmk,keymap" ;
